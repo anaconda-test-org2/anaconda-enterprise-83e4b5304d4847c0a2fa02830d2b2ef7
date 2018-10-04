@@ -1,0 +1,19 @@
+name: data_crossfilter
+description: An example Bokeh application for cross filtering data.
+
+commands:
+  default:
+    bokeh_app: .
+
+channels: []
+packages: []
+
+env_specs:
+  anaconda44_py35:
+    channels: []
+    packages:
+      - python=3.5
+      - bokeh=0.12.5
+      - ipykernel=4.6
+      - tornado=4.5.1
+      - pandas=0.20.1
